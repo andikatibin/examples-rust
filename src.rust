@@ -1,0 +1,29 @@
+// This is the main function
+fn greeting() {
+
+    // Print text to the console
+    println!("Hi, How are you to day.");
+    println!("——————————————————————");
+    
+    // let array
+    let arr = [10, 20, 30, 40, 50, 60, 70];
+    
+    let mut i = 0;
+    
+    // while looping
+    while i < 7 {
+        println!("arr[{}] = {}",i, arr[i]);
+        i = i+1;
+    }
+    println!("\n————————————\n");
+    println!("i am fine.");
+    println!("\n————————————\n");
+}
+// main function 
+fn main() {
+    // call my function
+    greeting(); 	
+    greeting(); 	
+    greeting(); 	
+    greeting();
+}
